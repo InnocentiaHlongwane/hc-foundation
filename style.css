@@ -84,6 +84,11 @@ a:focus {
     outline: 0px solid
 }
 
+.logo {
+    max-width: 200px;
+    margin-top: -51px;
+    
+}
 img {
     max-width: 100%;
     height: auto
@@ -114,14 +119,14 @@ a {
 }
 
 a:hover {
-    color: #0AAAA0;
+    color: #951A89;
     text-decoration: none;
 }
 
 a:active,
 a:hover {
     outline: 0 none;
-    color: #0AAAA0;
+    color: #951A89;
 }
 
 .np {
@@ -282,14 +287,14 @@ body {
 }
 
 .btn-lg:hover {
-    background: #0AAAC0;
+    background: #3498DB;
     color: #fff;
-    border: 1px solid #0AAAC0;
+    border: 1px solid #3498DB;
 }
 
 .btn-md {
-    border: 1px solid #555;
-    color: #555;
+    border: 1px solid #951A89;
+    color: #951A89;
     font-family: raleway;
     font-size: 14px;
     font-weight: bold;
@@ -298,9 +303,9 @@ body {
 }
 
 .btn-md:hover {
-    background: #0AAAC0;
+    background: #3498DB;
     color: #fff;
-    border: 1px solid #0AAAC0;
+    border: 1px solid #3498DB;
 }
 
 .btn-sm {
@@ -316,14 +321,14 @@ body {
 }
 
 .btn-sm:hover {
-    background: #0AAAC0;
+    background: #3498DB;
     color: #fff;
-    border: 1px solid #0AAAC0;
+    border: 1px solid #3498DB;
 }
 
 .btn-lg-f {
     border: 1px solid #fff;
-    background: #0AAAC0;
+    background: #3498DB;
     display: inline-block;
     font-family: raleway;
     font-size: 12px;
@@ -338,12 +343,12 @@ body {
 }
 
 .btn-lg-f:hover {
-    border: 1px solid #666;
+    border: 1px solid #951A89;
     background: transparent;
 }
 
 .btn-lg-f:hover a {
-    color: #666;
+    color: #951A89;
 }
 
 
@@ -354,7 +359,7 @@ body {
 /*----------------------------------------*/
 
 .header-top {
-    background: #0aaaa0 none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     line-height: 40px;
 }
 
@@ -423,7 +428,7 @@ body {
 }
 
 .call-to-action ul li ul {
-    background: #0aaaa0 none repeat scroll 0 0;
+    background:#3498DB none repeat scroll 0 0;
     opacity: 0;
     padding: 0 10px;
     position: absolute;
@@ -444,11 +449,12 @@ body {
 
 .main-menu-area {
     background: #fff none repeat scroll 0 0;
+    margin-bottom: -65px;
 }
 
 .main-menu ul li {
     float: left;
-    padding: 47px 23px;
+    padding: 60px 22px;
     position: relative;
 }
 
@@ -459,15 +465,15 @@ body {
 .main-menu ul li a {
     color: #444;
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     padding: 7px 0;
     font-weight: 500;
     transition: all 0.3s ease 0s;
 }
 
 .main-menu ul li:hover a {
-    color: #0aaaa0;
-    border-bottom: 2px solid #0aaaa0;
+    color: #3498DB;
+    border-bottom: 2px solid #3498DB;
 }
 
 
@@ -475,7 +481,7 @@ body {
 
 .mega-menu-area {
     background: #ffffff none repeat scroll 0 0;
-    border-bottom: 2px solid #0aaaa0;
+    border-bottom: 2px solid #3498DB;
     box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
     left: 0;
     opacity: 0;
@@ -488,6 +494,7 @@ body {
     visibility: hidden;
     width: 100%;
     z-index: 10;
+
 }
 
 .main-menu li:hover .mega-menu-area {
@@ -523,11 +530,11 @@ body {
 }
 
 .main-menu li:hover .single-mega-item li:hover {
-    border-bottom: 1px solid #0AAAA0;
+    border-bottom: 1px solid #3498DB;
 }
 
 .main-menu li:hover .single-mega-item li a:hover {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 
@@ -535,7 +542,7 @@ body {
 
 .drop-menu {
     background: #ffffff none repeat scroll 0 0;
-    border-bottom: 2px solid #0aaaa0;
+    border-bottom: 2px solid #3498DB;
     box-shadow: 0 1px 2px rgba(86, 86, 90, 0.5);
     left: 0;
     opacity: 0;
@@ -562,11 +569,11 @@ body {
 }
 
 .main-menu li:hover .drop-menu li:hover {
-    border-bottom: 1px solid #41C3AC;
+    border-bottom: 1px solid #3498DB;
 }
 
 .main-menu li:hover .drop-menu li a:hover {
-    color: #41C3AC;
+    color: #3498DB;
 }
 
 .main-menu li .drop-menu li a {
@@ -575,12 +582,12 @@ body {
 }
 
 .drop-menu li a:hover {
-    border-bottom: 1px solid #0AAAA0;
-    color: #0AAAA0;
+    border-bottom: 1px solid #3498DB;
+    color: #3498DB;
 }
 
 .main-menu li:hover .drop-menu li:last-child a:hover {
-    border-bottom: 0px solid #0AAAA0;
+    border-bottom: 0px solid #3498DB;
 }
 
 .main-menu li:hover .drop-menu {
@@ -601,12 +608,12 @@ body {
 
 .donate-button {
     float: right;
-    margin-top: 19px;
+    margin-top: 30px;
 }
 
 .donate-button>a {
-    background: #0aaaa0 none repeat scroll 0 0;
-    border: 1px solid #0aaaa0;
+    background: #3498DB none repeat scroll 0 0;
+    border: 1px solid #3498DB;
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 14px;
@@ -616,9 +623,9 @@ body {
 }
 
 .donate-button>a:hover {
-    border: 1px solid #555;
+    border: 1px solid #951A89;
     background: transparent;
-    color: #444;
+    color: #951A89;
 }
 
 .stick {
@@ -629,11 +636,13 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 120px;
     z-index: 9990;
+    
 }
 
 .stick .main-menu ul li {
-    padding: 18px 23px;
+    padding: 35px 25px;
 }
 
 .stick .main-menu ul li .drop-menu li {
@@ -641,15 +650,17 @@ body {
 }
 
 .stick .ptb-32 {
-    padding: 10px 0;
+    padding: 40px 0;
 }
 
 .stick .logo.ptb-32 img {
-    width: 130px;
+    max-width: 160px;
+    margin-top: -1px;
 }
 
 .stick .donate-button {
-    margin-top: 9px;
+    margin-top: -3px;
+    margin-right: 10px;
 }
 
 
@@ -684,7 +695,7 @@ body {
 }
 
 .main-menu ul li.active a {
-    color: red;
+    color: #951A89;
 }
 
 
@@ -746,7 +757,7 @@ h1.title1 {
 }
 
 .nivo-prevNav .left:hover i {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .nivo-nextNav .right {
@@ -754,7 +765,7 @@ h1.title1 {
 }
 
 .nivo-nextNav .right:hover i {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .slider-area .nivo-controlNav {
@@ -767,7 +778,7 @@ h1.title1 {
 .slider-area .nivo-controlNav a.active,
 .slider-area .nivo-controlNav a:hover {
     background: #fff none repeat scroll 0 0;
-    box-shadow: 0 0 0 3px #0AAAA0 inset;
+    box-shadow: 0 0 0 3px #3498DB inset;
 }
 
 .slider-area .nivo-controlNav a {
@@ -836,7 +847,7 @@ h1.title1 {
 }
 
 .section-title h2 span {
-    color: #0aaaa0;
+    color: #3498DB;
 }
 
 .section-title.text-center>p {
@@ -926,7 +937,7 @@ h1.title1 {
 /* help-icon */
 
 .help-icon {
-    border: 1px solid #0aaac0;
+    border: 1px solid #F54324;
     float: left;
     margin-right: 30px;
     text-align: center;
@@ -982,7 +993,7 @@ h1.title1 {
 
 .gallery-menu ul li:hover,
 .gallery-menu ul li.active {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 
@@ -997,7 +1008,7 @@ h1.title1 {
 }
 
 .image-link {
-    background: rgba(10, 170, 160, 0.68) none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     bottom: 15px;
     left: 15px;
     opacity: 0;
@@ -1077,7 +1088,7 @@ h1.title1 {
 }
 
 .count-down .tab-val {
-    background: #0aaac0 none repeat scroll 0 0 padding-box content-box;
+    background: #3498DB none repeat scroll 0 0 padding-box content-box;
     border: 2px solid #ffffff;
     color: #ffffff;
     font-family: roboto;
@@ -1109,7 +1120,7 @@ h1.title1 {
 }
 
 .volunteer-social {
-    background: rgba(10, 170, 192, 0.65) none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     height: 0%;
     left: 0;
     line-height: 339px;
@@ -1190,7 +1201,7 @@ h1.title1 {
 }
 
 .people-say-image>img {
-    border: 2px solid #0aaaa0;
+    border: 2px solid #3498DB;
     border-radius: 100%;
     height: 115px;
     width: 115px;
@@ -1315,7 +1326,7 @@ h1.title1 {
 }
 
 .blo-image-and-date>a {
-    background: #0aaac0 none repeat scroll 0 0;
+    background: #961B8D none repeat scroll 0 0;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 14px;
@@ -1356,7 +1367,7 @@ h1.title1 {
 
 .comment a:hover i,
 .admin>a:hover i {
-    color: #0AAAC0;
+    color: #3498DB;
 }
 
 .comment>a {
@@ -1381,7 +1392,7 @@ h1.title1 {
 }
 
 .blog-text h3 a:hover {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .blog-text>p {
@@ -1400,8 +1411,8 @@ h1.title1 {
 }
 
 .blog-text>a:hover {
-    color: #0AAAC0;
-    border-bottom: 1px solid #0AAAC0;
+    color: #3498DB;
+    border-bottom: 1px solid #3498DB;
 }
 
 
@@ -1445,7 +1456,7 @@ h1.title1 {
 }
 
 .footer-widget-title>h3::after {
-    background: #0aaac0 none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     content: "";
     display: block;
     height: 3px;
@@ -1502,11 +1513,11 @@ h1.title1 {
 }
 
 .footer-widget.widget-two li:hover::after {
-    color: #0E9CB1;
+    color: #3498DB;
 }
 
 .footer-widget.widget-two a:hover {
-    color: #0E9CB1;
+    color: #3498DB;
 }
 
 
@@ -1574,6 +1585,13 @@ h1.title1 {
     font-size: 12px;
 }
 
+.footer-Logo {
+    max-width: 300px;
+    margin-top: -50px;
+
+    
+}
+
 
 /* home animated css */
 
@@ -1587,7 +1605,7 @@ h1.title1 {
 }
 
 #scrollUp {
-    background-color: #0AAAA0;
+    background-color: #3498DB;
     bottom: 5px;
     cursor: pointer;
     display: none;
@@ -1636,7 +1654,7 @@ h1.title1 {
 }
 
 .back-home a i {
-    color: #0aaac0;
+    color: #3498DB;
     margin-right: 5px;
 }
 
@@ -1673,7 +1691,7 @@ h1.title1 {
 
 .breadcrumbs a:hover,
 .breadcrumbs li.active {
-    color: #0AAAA0;
+    color: #87C535;
 }
 
 
@@ -1695,7 +1713,7 @@ h1.title1 {
 }
 
 .we-do-text {
-    background: rgba(10, 170, 160, 0.63) none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     height: 90%;
     left: 5%;
     position: absolute;
@@ -1730,7 +1748,7 @@ h1.title1 {
 }
 
 .single-project h2::after {
-    background: #0aaac0 none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
     bottom: 0;
     content: "";
     height: 5px;
@@ -1790,7 +1808,7 @@ h1.title1 {
 .knob {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 0 none;
-    color: #2bcdc1;
+    color: #3498DB;
     font: bold 20px Arial;
     height: 33px;
     margin-left: -48px !important;
@@ -1883,8 +1901,8 @@ h1.title1 {
 }
 
 .blog-pagination li a:hover {
-    background: #0AAAA0;
-    border: 1px solid #0AAAA0;
+    background: #3498DB;
+    border: 1px solid #3498DB;
     color: #fff;
 }
 
@@ -1896,7 +1914,7 @@ h1.title1 {
 
 .blog-pagination li:last-child a:hover {
     background: transparent;
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 
@@ -1911,14 +1929,15 @@ h1.title1 {
     min-height: 250px;
     padding: 50px 0 20px;
     transition: all 0.3s ease 0s;
+    box-shadow: 0 8px 16px 1px #994b90;
 }
 
 .single-box:hover {
-    border: 1px solid #0AAAA0;
+    border: 1px solid #3498DB;
 }
 
 .single-box:hover i {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .single-box i {
@@ -2008,8 +2027,8 @@ h1.title1 {
 }
 
 .form-button button:hover {
-    background: #0AAAA0;
-    border: 1px solid #0AAAA0;
+    background: #3498DB;
+    border: 1px solid #3498DB;
     color: #fff;
 }
 
@@ -2154,7 +2173,7 @@ h1.title1 {
 }
 
 .popular-tags nav ul li a:hover {
-    background: #0AAAA0;
+    background: #3498DB;
     color: #fff;
 }
 
@@ -2202,7 +2221,7 @@ h1.title1 {
 }
 
 .event-image>h3 {
-    background: #0aaaa0 none repeat scroll 0 0;
+    background: #99188E none repeat scroll 0 0;
     color: #fff;
     font-family: roboto;
     font-size: 18px;
@@ -2217,7 +2236,7 @@ h1.title1 {
 }
 
 .event-text h3 a:hover {
-    color: #0aaaa0;
+    color: #951A89;
 }
 
 .event-text>h3 {
@@ -2241,7 +2260,7 @@ h1.title1 {
 }
 
 .event-time-and-place span i {
-    color: #0aaaa0;
+    color: #3498DB;
     margin-right: 11px;
 }
 
@@ -2262,7 +2281,7 @@ h1.title1 {
 
 .event-sidt-title>h3:after {
     content: "";
-    background: #0AAAA0;
+    background: #3498DB;
     position: absolute;
     width: 70px;
     height: 3px;
@@ -2311,7 +2330,7 @@ h1.title1 {
 }
 
 .error-content h1 span {
-    color: #0aaac0;
+    color: #3498DB;
 }
 
 .error-content h3 {
@@ -2436,7 +2455,7 @@ h1.title1 {
 }
 
 .single0blog-coment ul li .comment-heading h5 a:hover {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .single0blog-coment ul li .comment-heading p {
@@ -2453,7 +2472,7 @@ h1.title1 {
 }
 
 .single0blog-coment ul li .comment-heading a.reply:hover {
-    color: #0AAAA0;
+    color: #3498DB;
 }
 
 .single0blog-coment ul li .coment0-text {
@@ -2554,7 +2573,7 @@ h1.title1 {
 }
 
 .leave-reply .btn-style:hover {
-    background: #0AAAA0 none repeat scroll 0 0;
+    background: #3498DB none repeat scroll 0 0;
 }
 
 
@@ -2678,7 +2697,7 @@ h1.title1 {
     line-height: 45px;
     float: left;
     background: #fff;
-    border: 2px solid #0AAAA0;
+    border: 2px solid #3498DB;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     -o-transition: all 0.2s;
@@ -2737,7 +2756,8 @@ h1.title1 {
     content: "";
     width: 18px;
     height: 14px;
-    background: url(img/icon/checkbox-check.png) -18px top no-repeat cursor: pointer;
+    background: url(img/icon/checkbox-check.png) -18px top no-repeat ;
+    cursor: pointer;
     position: absolute;
     left: -39px;
     top: 5px;
@@ -2770,7 +2790,7 @@ h1.title1 {
     color: #252525;
     padding: 10px 15px;
     height: 50px;
-    border: 2px solid #0AAAA0;
+    border: 2px solid #3498DB;
 }
 
 .quick-donation-section .enter-amount input::placeholder {
@@ -2783,7 +2803,7 @@ h1.title1 {
 }
 
 .quick-donation-section .donate-btn button {
-    background-color: #0AAAA0;
+    background-color: #3498DB;
     height: 50px;
     line-height: 50px;
     font-size: 16px;
@@ -2865,8 +2885,8 @@ h1.title1 {
 }
 
 .ec-colorswitcher h3 {
-    background-color: #0aaaa0;
-    border-top: 1px solid #0aaaa0;
+    background-color: #3498DB;
+    border-top: 1px solid #3498DB;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -2925,7 +2945,7 @@ h1.title1 {
 }
 
 .layout-btn a span {
-    background-color: #0AAAA0;
+    background-color: #3498DB;
     color: #fff;
     float: left;
     padding: 10px;
@@ -2981,7 +3001,7 @@ h1.title1 {
 }
 
 .cs-color-1 {
-    background: #0AAAA0;
+    background: #951A89;
 }
 
 .cs-color-2 {
@@ -2989,7 +3009,7 @@ h1.title1 {
 }
 
 .cs-color-3 {
-    background: #AF4D32;
+    background: #87C535;
 }
 
 .cs-color-4 {
@@ -2997,7 +3017,7 @@ h1.title1 {
 }
 
 .cs-color-5 {
-    background: #3498db;
+    background: #53ACE4;
 }
 
 .cs-color-6 {
@@ -3013,7 +3033,7 @@ h1.title1 {
 }
 
 .cs-color-9 {
-    background: #c0392b;
+    background: #EA068F;
 }
 
 .cs-color-10 {
@@ -3021,7 +3041,7 @@ h1.title1 {
 }
 
 .cs-color-11 {
-    background: #f05a66;
+    background: #F54324;
 }
 
 .cs-color-12 {
@@ -3114,3 +3134,7 @@ h1.title1 {
 .mtb-20 {
     margin: 20px 0;
 }
+
+/*.about-content-area {
+background-color: #F1F1F1;
+}*/
