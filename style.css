@@ -100,6 +100,7 @@ img {
 
 p {
     margin: 0 0 15px;
+    line-height: 25px;
 }
 
 h1,
@@ -1158,7 +1159,7 @@ h1.title1 {
 }
 
 .volunteer-title.text-center>h5 {
-    color: #444444;
+    color: #87C535;
     font-family: roboto;
     font-size: 18px;
     margin-bottom: 0;
