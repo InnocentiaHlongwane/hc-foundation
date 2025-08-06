@@ -1,0 +1,25 @@
+{
+  "name": "hc-foundation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InnocentiaHlongwane/hc-foundation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InnocentiaHlongwane/hc-foundation/issues"
+  },
+  "homepage": "https://github.com/InnocentiaHlongwane/hc-foundation#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
+
